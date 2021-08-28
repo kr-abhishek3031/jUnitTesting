@@ -1,2 +1,3 @@
 rootProject.name = 'unitTesting'
+include 'javaCourseChallenge'
 

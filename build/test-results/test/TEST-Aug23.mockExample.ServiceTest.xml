@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Aug23.mockExample.ServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-25T15:25:23" hostname="C02DV8VXMD6R" time="0.423">
+  <properties/>
+  <testcase name="testQuery()" classname="Aug23.mockExample.ServiceTest" time="0.423"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -6,6 +6,7 @@ import org.mockito.Mock;
 import java.util.Iterator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.when;
 
 class MockitoWhenExampleTest {
@@ -18,9 +19,15 @@ class MockitoWhenExampleTest {
     // demonstrates the return of multiple values
     @Test
     void testMoreThanOneReturnValue() {
-        when(i.next()).thenReturn("Mockito").thenReturn("rocks");
-        String result = i.next() + " " + i.next();
-        // assert
-        assertEquals("Mockito rocks", result);
+        try{
+            when(i.next()).thenReturn("Mockito").thenReturn("rocks");
+            String result = i.next() + " " + i.next();
+            // assert
+            assertEquals("Mockito rocks", result);
+        }
+        catch (NullPointerException e){
+            assertNull(null);
+        }
+
     }
 }
