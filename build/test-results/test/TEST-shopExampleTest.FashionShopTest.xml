@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="shopExampleTest.FashionShopTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-25T15:25:23" hostname="C02DV8VXMD6R" time="0.033">
-  <properties/>
-  <testcase name="checkAddtshirtSize()" classname="shopExampleTest.FashionShopTest" time="0.023"/>
-  <testcase name="checkAddtshirt()" classname="shopExampleTest.FashionShopTest" time="0.009"/>
-  <system-out><![CDATA[Tshirt added
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
