@@ -19,15 +19,25 @@ public class InventoryTest {
     }
 
     @ParameterizedTest
-    @ValueSource(ints = {1, 2, 3, 4, 5, 6}) // 3
+    @ValueSource(ints = {1, 2, 3, 4, 5, 6})
     public void searchProductByIDPositveTest(int id){
         assertEquals(true, inventory.searchProduct(id));
     }
     @ParameterizedTest
-    @ValueSource(ints = { 7,8, 9, 10, Integer.MAX_VALUE}) // 3
+    @ValueSource(ints = { 7,8, 9, 10, Integer.MAX_VALUE})
     public void searchProductByIDnegativeTest(int id){
         assertEquals(false, inventory.searchProduct(id));
     }
 
+    @ParameterizedTest
+    @ValueSource(strings = {"Nike", "Hike", "Reebok", "Skechers"})
+    public void searchProductByNamePositveTest(String name){
+        assertEquals(true, inventory.searchProduct(name));
+    }
+    @ParameterizedTest
+    @ValueSource(strings = {"Dike", "Like", "Qeebok", "Rkechers"})
+    public void searchProductByNamenegativeTest(String name){
+        assertEquals(false, inventory.searchProduct(name));
+    }
 
 }

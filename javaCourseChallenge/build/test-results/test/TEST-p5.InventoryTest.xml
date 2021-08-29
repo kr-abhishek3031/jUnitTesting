@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="p5.InventoryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-08-29T05:18:15" hostname="C02DV8VXMD6R" time="0.041">
+<testsuite name="p5.InventoryTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-08-29T06:20:46" hostname="C02DV8VXMD6R" time="0.073">
   <properties/>
-  <testcase name="[1] 7" classname="p5.InventoryTest" time="0.023"/>
+  <testcase name="[1] 7" classname="p5.InventoryTest" time="0.037"/>
   <testcase name="[2] 8" classname="p5.InventoryTest" time="0.001"/>
-  <testcase name="[3] 9" classname="p5.InventoryTest" time="0.001"/>
+  <testcase name="[3] 9" classname="p5.InventoryTest" time="0.0"/>
   <testcase name="[4] 10" classname="p5.InventoryTest" time="0.001"/>
-  <testcase name="[5] 2147483647" classname="p5.InventoryTest" time="0.0"/>
+  <testcase name="[5] 2147483647" classname="p5.InventoryTest" time="0.001"/>
+  <testcase name="[1] Nike" classname="p5.InventoryTest" time="0.0"/>
+  <testcase name="[2] Hike" classname="p5.InventoryTest" time="0.001"/>
+  <testcase name="[3] Reebok" classname="p5.InventoryTest" time="0.0"/>
+  <testcase name="[4] Skechers" classname="p5.InventoryTest" time="0.0"/>
   <testcase name="[1] 1" classname="p5.InventoryTest" time="0.001"/>
-  <testcase name="[2] 2" classname="p5.InventoryTest" time="0.0"/>
-  <testcase name="[3] 3" classname="p5.InventoryTest" time="0.0"/>
+  <testcase name="[2] 2" classname="p5.InventoryTest" time="0.001"/>
+  <testcase name="[3] 3" classname="p5.InventoryTest" time="0.001"/>
   <testcase name="[4] 4" classname="p5.InventoryTest" time="0.001"/>
   <testcase name="[5] 5" classname="p5.InventoryTest" time="0.0"/>
-  <testcase name="[6] 6" classname="p5.InventoryTest" time="0.0"/>
+  <testcase name="[6] 6" classname="p5.InventoryTest" time="0.001"/>
+  <testcase name="[1] Dike" classname="p5.InventoryTest" time="0.001"/>
+  <testcase name="[2] Like" classname="p5.InventoryTest" time="0.001"/>
+  <testcase name="[3] Qeebok" classname="p5.InventoryTest" time="0.0"/>
+  <testcase name="[4] Rkechers" classname="p5.InventoryTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
